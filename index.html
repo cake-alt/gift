@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY BIRTHDAY!!!!!</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <ul>
+                <li>Enrico: <strong> *Speaks Meme*</strong></li>
+                <li>Me:</li>
+            </ul>
+        </div>
+        <div class="cat" onclick="hello()">
+            <div class="catHead"></div>
+            <div class="catEars">
+                <span class="rightEar"></span>
+            </div>
+            <div class="face">
+                <span class="mouth"></span>
+            </div>
+            <div id="leftPaw" class="leftPaw">
+                <span id="paws" class="paws">
+                    <span id="circles" class="circles"></span>
+                </span>
+            </div>
+            <div id="rightPaw" class="rightPaw">
+                <span id="rpaws" class="paws">
+                    <span id="rcircles" class="circles"></span>
+                </span>
+            </div>
+        </div>
+        <div class="surface">
+            <span><i id="heart" class="rotate fas fa-heart"></i></span>
+        </div>
+
+    </div>
+
+    <!--Create a div for the game-->
+    <div class="game">
+
+        <!-- <h1>MADE A WISH !</h1> -->
+        <h1><strong>Make a Wish</strong></h1>
+        <p id="first">The momemt has come: It's time to blow out the candles on your birthday cake!</p>
+
+        <div class="forms">
+            <p>Your favorite food:</p>
+            <!--Give each input an id-->
+            <input type="text" id="food">
+            <!-- <p>Adjective to describe someone you admire:</p>
+            <input type="text" id="adjective"> -->
+            <p>Type of device:</p>
+            <input type="text" id="device">
+            <p>Name a chess piece:</p>
+            <input type="text" id="chess">
+            <p>Celebrity crush:</p>
+            <input type="text" id="celebrity">
+            <p>Body Part:</p>
+            <input type="text" id="body">
+            <p>Your favorite holiday:</p>
+            <input type="text" id="holiday">
+
+        </div>
+        <!--Use a button to launch the function-->
+        <button id="lib-button" onclick="madLibs()">lib it!</button>
+        <div id="story"></div>
+        <div class="cake">
+            <!-- <img src="cake.gif" alt="Birthday cake"> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
